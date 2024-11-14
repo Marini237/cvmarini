@@ -1,5 +1,5 @@
 import React from 'react';
-import profilPic from '/Users/kanam/Downloads/react-cv/src/media/me.jpg'; // Assurez-vous que le chemin est correct
+//import profilPic from '/Users/kanam/Downloads/react-cv/src/media/me.jpg'; // Assurez-vous que le chemin est correct
 import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
@@ -8,7 +8,7 @@ const Navigation = () => {
             <div className="id">
                 <div className="idContent">
                     {/* Utilisez l'image importée comme source */}
-                    <img src={profilPic} alt="Profil-Pic" style={{ width: "100px", height: "auto" }} />
+                    <img src="media/me.jpg" alt="Profil-Pic" style={{ width: "100px", height: "auto" }} />
                     <h3>KANA Axel</h3>
                 </div>
             </div> 
