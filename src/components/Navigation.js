@@ -1,5 +1,5 @@
 import React from 'react';
-import profilPic from '/Users/kanam/Downloads/react-cv/src/media/cv.jpg'; // Assurez-vous que le chemin est correct
+import profilPic from '/Users/kanam/Downloads/react-cv/src/media/me.jpg'; // Assurez-vous que le chemin est correct
 import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
