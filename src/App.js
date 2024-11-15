@@ -11,11 +11,10 @@ const App = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/contact" element={<Contact />} />
           <Route path="/" element={<Home />} />
           <Route path="/competences" element={<Knowledges />} />
           <Route path="/portfolio" element={<Portfolio />} />
-          {/* Pour gérer les routes non trouvées, utilisez "*" comme chemin et assignez le composant NotFound */}
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

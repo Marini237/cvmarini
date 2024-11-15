@@ -1,5 +1,5 @@
 import React from 'react';
-//import profilPic from '/Users/kanam/Downloads/react-cv/src/media/me.jpg'; // Assurez-vous que le chemin est correct
+import profilPic from '../media/cv.jpg'; // Assurez-vous que le chemin est correct
 import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
@@ -8,8 +8,8 @@ const Navigation = () => {
             <div className="id">
                 <div className="idContent">
                     {/* Utilisez l'image importée comme source */}
-                    <img src="media/me.jpg" alt="Profil-Pic" style={{ width: "100px", height: "auto" }} />
-                    <h3>KANA Axel</h3>
+                    <img src={profilPic} alt="profil-pic" style={{ width: "100px", height: "auto" }} />
+                    <h3>KANA Marini</h3>
                 </div>
             </div> 
 
@@ -44,7 +44,7 @@ const Navigation = () => {
                 <div className="socialNetwork">
                     <ul>
                         <li>
-                            <a href="https://www.linkedin.com/in/axel-kana-6b0b011b4/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+                            <a href="https://www.linkedin.com/in/axel-kana-952b89258/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
                         </li>
                         <li>
                             <a href="https://github.com/Marini237" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
@@ -57,7 +57,7 @@ const Navigation = () => {
                         </li>
                     </ul>  
                     <div className="signature">
-                        <p>KmaxDreams - 2023</p>
+                        <p>KmaxDreams - 2024/2025</p>
                     </div> 
              </div>
         </div>

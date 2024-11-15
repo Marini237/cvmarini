@@ -1,7 +1,7 @@
-@import './settings';
-@import './components/navigation.scss';
-@import './pages/contact';
-@import './pages/home';
-@import './pages/portfolio';
-@import './pages/notfound';
-@import './pages/knowledges';
+@use './settings.scss'as *;
+@use './components/navigation.scss';
+@use './pages/contact';
+@use './pages/home';
+@use './pages/portfolio';
+@use './pages/notfound';
+@use './pages/knowledges';

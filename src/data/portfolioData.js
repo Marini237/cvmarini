@@ -53,11 +53,21 @@ export const portfolioData =[
     {
         id: 6,
         name: 'ReseauSocial',
-        languages: ['React', 'EXPRESS', 'MongoDB', 'Redux'],
-        languagesIcons: ['fab fa-react', 'fab fa-node-js', 'fab fa-js', 'fab fa-redux'],
+        languages: ['React', 'EXPRESS', 'MongoDB', 'Redux','javascript'],
+        languagesIcons: ['fab fa-react', 'fab fa-node-js', 'fab fa-js', 'fab fa-redux','fab fa-js'],
         source: 'https://github.com/Marini237/Reseau_Social.git',
         info: 'Racoont est une application de réseau social inspirée d Instagram et Twitter, construite avec React, Express, MongoDB et Redux, offrant une plateforme dynamique pour le partage de contenu et l interaction sociale. Les utilisateurs peuvent créer des profils personnalisés, publier des messages, des photos et des vidéos, interagir via des commentaires, des likes et des réactions, et suivre d autres comptes pour enrichir leur fil d actualité personnalisé. Avec des fonctionnalités avancées comme la découverte de contenu, les notifications en temps réel et une sécurité robuste, Racoon vise à fournir une expérience utilisateur engageante et sécurisée, tout en gérant efficacement les données avec MongoDB et en assurant une gestion d état fluide grâce à Redux.',
         picture: '/media/p_6.jpg'
+    },
+    {
+        id: 7,
+        name: 'BudgetManager',
+        languages: ['TypeScript', 'Next.js', 'React', 'Tailwind CSS', 'Prisma', 'Clerk'],
+        languagesIcons: ['fab fa-react', 'fab fa-js', 'fab fa-css3-alt', 'fab fa-node-js'],
+        source: 'https://github.com/Marini237/GestionDepenses.git',
+        info: 'BudgetManager est une application web complète conçue pour vous aider à gérer vos finances personnelles et professionnelles. Développée en TypeScript avec Next.js, elle combine performance et flexibilité. Grâce à React, l’interface utilisateur est fluide, dynamique et intuitive, tandis que Tailwind CSS permet de maintenir une esthétique moderne et responsive. Prisma est utilisé pour interagir avec la base de données, garantissant des transactions rapides et fiables. Clerk prend en charge l’authentification et la gestion des utilisateurs, renforçant la sécurité des données personnelles. Les fonctionnalités incluent le suivi détaillé des dépenses et revenus, l’ajout et la gestion de catégories personnalisées, la création et le suivi de budgets mensuels, l’exportation des données sous forme de rapports, et des visualisations graphiques pour une analyse approfondie. L’application est idéale pour suivre vos finances, identifier les économies possibles, et planifier des objectifs financiers à long terme.',
+        picture: '/media/p_7.jpg'
     }
+    
 
 ];
